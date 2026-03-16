@@ -1,0 +1,275 @@
+{
+  "intents": [
+
+    {
+      "tag": "salutation",
+      "patterns": [
+        "bonjour",
+        "salut",
+        "hello",
+        "coucou",
+        "bonsoir",
+        "hey",
+        "bjr",
+        "slt",
+        "allo",
+        "bonjour tati makeup",
+        "salut chatbot",
+        "bonjour madame",
+        "bonjour assistant"
+      ],
+      "responses": [
+        "Bonjour et bienvenue chez TATI Makeup 💄 ! Comment puis-je vous aider aujourd'hui ?",
+        "Salut ! Je suis l'assistant virtuel de TATI Makeup. Que souhaitez-vous savoir ?",
+        "Hello ! Besoin d'informations sur nos prestations ou une réservation ?"
+      ]
+    },
+
+    {
+      "tag": "adieu",
+      "patterns": [
+        "au revoir",
+        "bye",
+        "a bientot",
+        "bonne journée",
+        "bonne soirée",
+        "bonne nuit",
+        "a la prochaine",
+        "ciao",
+        "je vous quitte"
+      ],
+      "responses": [
+        "Au revoir et merci d'avoir contacté TATI Makeup 💄 !",
+        "À bientôt ! Nous serons ravis de vous accueillir.",
+        "Merci pour votre visite et à très bientôt."
+      ]
+    },
+
+    {
+      "tag": "remerciement",
+      "patterns": [
+        "merci",
+        "merci beaucoup",
+        "merci pour l'information",
+        "super merci",
+        "parfait merci",
+        "top merci"
+      ],
+      "responses": [
+        "Avec plaisir 😊",
+        "Je suis là pour vous aider !",
+        "N'hésitez pas si vous avez d'autres questions 💄"
+      ]
+    },
+
+    {
+      "tag": "about",
+      "patterns": [
+        "qui êtes vous",
+        "c'est quoi tati makeup",
+        "présentation du salon",
+        "parlez moi de vous",
+        "votre salon",
+        "qui gère le salon"
+      ],
+      "responses": [
+        "TATI Makeup est un salon de beauté professionnel situé à Abidjan. Nous sommes spécialisés dans le maquillage, les soins du visage, les extensions de cils et la formation beauté. 💄",
+        "Notre mission est de sublimer votre beauté avec des prestations professionnelles et modernes."
+      ]
+    },
+
+    {
+      "tag": "horaires",
+      "patterns": [
+        "vos horaires",
+        "horaire d'ouverture",
+        "quand ouvrez vous",
+        "quand fermez vous",
+        "êtes vous ouvert aujourd'hui",
+        "horaire salon"
+      ],
+      "responses": [
+        "📅 Horaires TATI Makeup :\nLundi - Vendredi : 09h00 à 18h00\nSamedi : 10h00 à 17h00\nDimanche : Fermé",
+        "Nous sommes ouverts du lundi au vendredi de 09h à 18h et le samedi de 10h à 17h."
+      ]
+    },
+
+    {
+      "tag": "localisation",
+      "patterns": [
+        "ou etes vous",
+        "adresse du salon",
+        "localisation tati makeup",
+        "ou se trouve le salon",
+        "comment venir"
+      ],
+      "responses": [
+        "📍 Notre salon est situé à Abidjan, Yopougon Ancien-Bel Air.",
+        "Vous pouvez nous trouver à Abidjan, Yopougon Ancien-Bel Air. Contactez-nous pour l'itinéraire."
+      ]
+    },
+
+    {
+      "tag": "contact",
+      "patterns": [
+        "numéro téléphone",
+        "contact tati makeup",
+        "whatsapp",
+        "email salon",
+        "comment vous joindre"
+      ],
+      "responses": [
+        "📞 Téléphone / WhatsApp : +225 07 49 68 13 66\n📧 Email : contact@tatimakeup.com",
+        "Vous pouvez nous contacter au +225 07 49 68 13 66."
+      ]
+    },
+
+    {
+      "tag": "prestations",
+      "patterns": [
+        "vos services",
+        "quelles prestations",
+        "services salon",
+        "que proposez vous",
+        "liste des services"
+      ],
+      "responses": [
+        " Nos prestations :\n- Maquillage professionnel\n- Soins du visage\n- Extensions de cils\n- Design sourcils\n- Formations maquillage",
+        "Nous proposons maquillage, soins visage, extensions cils, design sourcils et formations beauté."
+      ]
+    },
+
+    {
+      "tag": "maquillage_prix",
+      "patterns": [
+        "prix maquillage",
+        "tarif maquillage",
+        "combien coute maquillage",
+        "prix makeup",
+        "tarif beauté"
+      ],
+      "responses": [
+        "Tarifs maquillage :\nMaquillage Jour — 15 000 FCFA\nMaquillage Soirée — 20 000 FCFA",
+        "Nos maquillages coûtent entre 15 000 et 20 000 FCFA selon la prestation."
+      ]
+    },
+
+    {
+      "tag": "mariage",
+      "patterns": [
+        "maquillage mariage",
+        "forfait mariée",
+        "prix maquillage mariée",
+        "makeup mariage",
+        "tarif mariage"
+      ],
+      "responses": [
+        "Forfait Mariée : 95 000 FCFA\nCe forfait inclut le maquillage professionnel pour la mariée.",
+        "Le forfait maquillage mariée est de 95 000 FCFA."
+      ]
+    },
+
+    {
+      "tag": "prix_dame_honneur",
+      "patterns": [
+        "prix dame honneur",
+        "tarif demoiselle honneur",
+        "combien pour une dame honneur",
+        "prix maquillage dame honneur"
+      ],
+      "responses": [
+        " Le maquillage pour une dame d'honneur est à 10 000 FCFA.",
+        "Chaque dame d'honneur est maquillée au tarif de 10 000 FCFA."
+      ]
+    },
+
+    {
+      "tag": "nombre_dames_honneur",
+      "patterns": [
+        "nous avons 3 dames honneur",
+        "il y aura 4 demoiselles honneur",
+        "j'ai 2 dames honneur",
+        "nous serons 5 dames honneur"
+      ],
+      "responses": [
+        "Parfait ! Le tarif est de 10 000 FCFA par dame d'honneur. Le prix total dépendra du nombre de personnes.",
+        "Chaque dame d'honneur coûte 10 000 FCFA."
+      ]
+    },
+
+    {
+      "tag": "extensions_cils",
+      "patterns": [
+        "extension cils",
+        "pose cils",
+        "prix cils",
+        "volume russe",
+        "faux cils"
+      ],
+      "responses": [
+        " Nous proposons extensions de cils : Classic, Volume Russe et Rehaussement.",
+        "Contactez-nous pour les tarifs des extensions de cils."
+      ]
+    },
+
+    {
+      "tag": "sourcils",
+      "patterns": [
+        "design sourcils",
+        "epilation sourcils",
+        "microblading",
+        "prix sourcils"
+      ],
+      "responses": [
+        "Nous proposons design sourcils, épilation et microblading.",
+        "Pour des sourcils parfaits contactez notre salon."
+      ]
+    },
+
+    {
+      "tag": "reservation",
+      "patterns": [
+        "je veux reserver",
+        "prendre rendez vous",
+        "rdv",
+        "je veux un rendez vous",
+        "creaux disponibles"
+      ],
+      "responses": [
+        "📅 Pour réserver : indiquez le service + la date + votre nom + numéro de téléphone.",
+        "Vous pouvez réserver en appelant le +225 07 49 68 13 66."
+      ]
+    },
+
+    {
+      "tag": "paiement",
+      "patterns": [
+        "mode paiement",
+        "comment payer",
+        "mobile money",
+        "orange money",
+        "wave",
+        "payer carte"
+      ],
+      "responses": [
+        " Modes de paiement acceptés : Espèces, Mobile Money (Orange Money, Wave, Moov).",
+        "Nous acceptons espèces et mobile money."
+      ]
+    },
+
+    {
+      "tag": "incomprehension",
+      "patterns": [
+        "je ne comprends pas",
+        "je suis perdu",
+        "expliquez moi",
+        "pouvez vous repeter"
+      ],
+      "responses": [
+        "Je n'ai pas bien compris votre demande. Pouvez-vous reformuler ? 😊",
+        "Essayez de poser votre question autrement."
+      ]
+    }
+
+  ]
+}
